@@ -8,8 +8,8 @@ These scripts allow Unity 3D beginners to make a humanoid character walk to a go
 * The character must have an animator and a controller which is called "Locomotion" and can be steered with a "speed" and a "direction" variable (I recommend simply using the controller from "Mecanim Locomotion Starter Kit" in the AssetStore)
 * The objects that serve as goals should have a (box) collider
 * Attach "WalkToGoal.cs" to the character. You do not need to manipulate this script.
-* Attach "WalkToCall.cs" to any object (possibly, but not necessarily the character). This script will call the actual walking function inside "WalkToGoal.cs". Calling it from outside "WalkToGoal.cs" allows you to centralise all character activities in one script (e.g. walking, looking or grasping behavior of various characters at the same time)
-* Drag the goals' and the character's transform to the appropriate places in the inspector's view on "WalkToCall.cs"
+* Attach "WalkToGoalInterface.cs" to any object (possibly, but not necessarily the character). This script will call the actual walking function inside "WalkToGoal.cs". Calling it from outside "WalkToGoal.cs" allows you to centralise all character activities in one script (e.g. walking, looking or grasping behavior of various characters at the same time)
+* Drag the character's and the goals' transforms to the appropriate places in the inspector's view on "WalkToGoalInterface.cs"
 * Press play, click on GUI buttons in the game view
 
 # License
