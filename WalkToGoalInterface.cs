@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WalkToCall : MonoBehaviour {
+public class WalkToGoalInterface : MonoBehaviour {
 
     Transform CurrentGoal;
     [Tooltip("Manually drag goal 1 here.")]
