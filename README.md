@@ -1,7 +1,7 @@
 # Purpose
 These scripts allow Unity 3D beginners to make a humanoid character walk to a goal in a natural way. The character will:
 * first turn round if the goal is located behind the character
-* walk to the goal at a determined speed, smoothly avoiding obstacles specified in the Navigation Mesh
+* walk to the goal at a specified speed, smoothly avoiding obstacles specified in the Navigation Mesh
 * slow down when approaching the goal, and stop in front of it at a specified distance
 
 # Installation
