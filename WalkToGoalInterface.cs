@@ -30,10 +30,11 @@ public class WalkToGoalInterface : MonoBehaviour {
 
     void OnGUI()
     {
-        GUILayout.BeginHorizontal();
+        GUILayout.BeginArea(new Rect(120, 10, 100, 200)); // You can change position of Interface here. This is designed so that all my interface scripts can run together. 
         if (GUILayout.Button("Walk to Goal 1")) { CurrentGoal = goal1; }
         if (GUILayout.Button("Walk to Goal 2")) { CurrentGoal = goal2; }
         if (GUILayout.Button("Walk to Goal 3")) { CurrentGoal = goal3; }
+        GUILayout.EndArea();
     }
         
         // Update is called once per frame
