@@ -2,7 +2,9 @@
 These scripts allow Unity 3D beginners to make a humanoid character walk to a goal in a natural way. The character will:
 * first turn round if the goal is located behind the character
 * walk to the goal at a specified speed, smoothly avoiding obstacles specified in the Navigation Mesh
-* slow down when approaching the goal, and stop in front of it at a specified distance
+* slow down when approaching the goal, and stop in front of it at a specified distance!
+
+![alt tag](https://github.com/mariusrubo/Unity-Humanoid-Walk-To-Goal/blob/master/WalkTo.jpg)
 
 # Installation
 * The character must have an animator and a controller which is called "Locomotion" and can be steered with a "speed" and a "direction" variable (I recommend simply using the controller from "Mecanim Locomotion Starter Kit" in the AssetStore)
