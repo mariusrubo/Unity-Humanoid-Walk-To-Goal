@@ -9,6 +9,7 @@ These scripts allow you to make a humanoid character walk to a goal in a natural
 # Installation
 * The character must have an animator and a controller which is called "Locomotion" and can be steered with a "speed" and a "direction" variable (I recommend simply using the controller from "Mecanim Locomotion Starter Kit" in the AssetStore)
 * The objects that serve as goals should have a collider, e.g. a box collider.
+* Bake the navigation mesh to let your character know where it can and where it cannot walk (see https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html in the Unity documentation)
 * Attach "WalkToGoal.cs" to the character. You do not need to manipulate this script.
 * Attach "WalkToGoalInterface.cs" to any object (possibly, but not necessarily the character). This script will call the actual walking function inside "WalkToGoal.cs". Calling it from outside "WalkToGoal.cs" allows you to centralise all character activities in one script (e.g. walking, looking or grasping behavior of various characters at the same time)
 * Drag the character's and the goals' transforms to the appropriate places in the inspector's view on "WalkToGoalInterface.cs"
